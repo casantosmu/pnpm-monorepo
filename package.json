@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter \"*\" build",
+    "clean": "pnpm --filter \"*\" clean",
+    "dev": "pnpm --filter \"*\" --parallel dev",
+    "format": "prettier . --write",
+    "lint": "pnpm --filter \"*\" lint",
+    "typecheck": "pnpm --filter \"*\" typecheck",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "3.0.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "tsconfig-paths": "^4.0.0"
+    }
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
