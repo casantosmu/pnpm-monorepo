@@ -5,7 +5,7 @@
     "clean": "pnpm --filter \"*\" clean",
     "dev": "pnpm --filter \"*\" --parallel dev",
     "format": "prettier . --write",
-    "lint": "pnpm --filter \"*\" lint",
+    "lint": "prettier . --check && pnpm --filter \"*\" lint",
     "typecheck": "pnpm --filter \"*\" typecheck",
     "prepare": "husky install"
   },

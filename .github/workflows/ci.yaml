@@ -29,13 +29,10 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: Run Prettier
-        run: pnpm exec prettier . --check
-
       - name: Build Packages
         run: pnpm --filter "./packages/**" build
 
-      - name: Run ESLint
+      - name: Run Lint
         run: pnpm lint
 
       - name: Run TypeScript Check
