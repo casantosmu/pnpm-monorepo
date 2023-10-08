@@ -33,7 +33,7 @@ jobs:
         run: pnpm exec prettier . --check
 
       - name: Build Packages
-        run: pnpm build
+        run: pnpm --filter "./packages/**" build
 
       - name: Run ESLint
         run: pnpm lint
