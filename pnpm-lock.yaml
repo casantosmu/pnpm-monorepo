@@ -40,8 +40,8 @@ importers:
         specifier: workspace:^
         version: link:../../packages/tsconfig
       tsx:
-        specifier: ^3.14.0
-        version: 3.14.0
+        specifier: ^4.1.4
+        version: 4.1.4
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
@@ -76,8 +76,8 @@ importers:
         specifier: workspace:^
         version: link:../tsconfig
       tsx:
-        specifier: ^3.14.0
-        version: 3.14.0
+        specifier: ^4.1.4
+        version: 4.1.4
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
@@ -2162,8 +2162,9 @@ packages:
       strip-bom: 3.0.0
     dev: true
 
-  /tsx@3.14.0:
-    resolution: {integrity: sha512-xHtFaKtHxM9LOklMmJdI3BEnQq/D5F73Of2E1GDrITi9sgoVkvIsrQUTY1G8FlmGtA+awCI4EBlTRRYxkL2sRg==}
+  /tsx@4.1.4:
+    resolution: {integrity: sha512-9X7uBCIyUsvMzIH+o8m+5o/5eL461cChCF+XUtOZsPr1a4pZx2lTQx0Muu5G5VwJWZwAGKBe3sJHLk82BENAVw==}
+    engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
       esbuild: 0.18.20
