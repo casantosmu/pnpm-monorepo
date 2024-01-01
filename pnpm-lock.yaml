@@ -31,8 +31,8 @@ importers:
         version: link:../../packages/logger
     devDependencies:
       '@types/node':
-        specifier: ^18.19.3
-        version: 18.19.3
+        specifier: ^18.19.4
+        version: 18.19.4
       eslint-config-custom:
         specifier: workspace:^
         version: link:../../packages/eslint-config-custom
@@ -67,8 +67,8 @@ importers:
   packages/logger:
     devDependencies:
       '@types/node':
-        specifier: ^18.19.3
-        version: 18.19.3
+        specifier: ^18.19.4
+        version: 18.19.4
       eslint-config-custom:
         specifier: workspace:^
         version: link:../eslint-config-custom
@@ -380,8 +380,8 @@ packages:
     resolution: {integrity: sha512-RbSSoHliUbnXj3ny0CNFOoxrIDV6SUGyStHsvDqosw6CkdPV8TtWGlfecuK4ToyMEAql6pzNxgCFKanovUzlgQ==}
     dev: true
 
-  /@types/node@18.19.3:
-    resolution: {integrity: sha512-k5fggr14DwAytoA/t8rPrIz++lXK7/DqckthCmoZOKNsEbJkId4Z//BqgApXBUGrGddrigYa1oqheo/7YmW4rg==}
+  /@types/node@18.19.4:
+    resolution: {integrity: sha512-xNzlUhzoHotIsnFoXmJB+yWmBvFZgKCI9TtPIEdYIMM1KWfwuY8zh7wvc1u1OAXlC7dlf6mZVx/s+Y5KfFz19A==}
     dependencies:
       undici-types: 5.26.5
     dev: true
