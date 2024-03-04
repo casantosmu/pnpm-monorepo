@@ -15,7 +15,7 @@
     "logger": "workspace:^"
   },
   "devDependencies": {
-    "@types/node": "^18.19.18",
+    "@types/node": "^18.19.21",
     "eslint-config-custom": "workspace:^",
     "tsconfig": "workspace:^",
     "tsx": "^4.7.1",
