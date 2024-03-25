@@ -13,7 +13,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/node": "^18.19.24",
+    "@types/node": "^18.19.26",
     "eslint-config-custom": "workspace:^",
     "tsconfig": "workspace:^",
     "tsx": "^4.7.1",
